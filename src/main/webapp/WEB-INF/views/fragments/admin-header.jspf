@@ -1,0 +1,64 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a
+      class="navbar-brand"
+      href="${pageContext.request.contextPath}/admin"
+    >
+      Video Admin
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#adminNavigation"
+      aria-controls="adminNavigation"
+      aria-expanded="false"
+      aria-label="M&#7903; menu"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div
+      id="adminNavigation"
+      class="collapse navbar-collapse"
+    >
+      <div class="navbar-nav ms-auto">
+        <a
+          class="nav-link"
+          href="${pageContext.request.contextPath}/home"
+        >
+          Trang ch&#7911;
+        </a>
+
+        <a
+          class="nav-link"
+          href="${pageContext.request.contextPath}/videos"
+        >
+          S&#7843;n ph&#7849;m
+        </a>
+
+        <a
+          class="nav-link"
+          href="${pageContext.request.contextPath}/admin/users"
+        >
+          Qu&#7843;n l&#253; User
+        </a>
+
+        <a
+          class="nav-link"
+          href="${pageContext.request.contextPath}/admin"
+        >
+          Trang qu&#7843;n tr&#7883;
+        </a>
+
+        <a
+          class="nav-link"
+          href="${pageContext.request.contextPath}/logout"
+        >
+          &#272;&#259;ng xu&#7845;t
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,40 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="900"
+  height="520"
+  viewBox="0 0 900 520"
+>
+  <rect width="900" height="520" fill="#e9ecef" />
+
+  <rect
+    x="300"
+    y="130"
+    width="300"
+    height="210"
+    rx="16"
+    fill="#ced4da"
+  />
+
+  <circle
+    cx="390"
+    cy="205"
+    r="32"
+    fill="#adb5bd"
+  />
+
+  <path
+    d="M325 310 L420 225 L485 285 L535 245 L575 310 Z"
+    fill="#6c757d"
+  />
+
+  <text
+    x="450"
+    y="405"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="32"
+    fill="#495057"
+  >
+    VIDEO POSTER
+  </text>
+</svg>

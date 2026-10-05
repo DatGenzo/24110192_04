@@ -1,0 +1,13 @@
+target/
+.classpath
+.project
+.settings/
+.vscode/
+.idea/
+*.iml
+.env
+uploads/
+*.zip
+*.docx
+*.log
+hs_err_pid*

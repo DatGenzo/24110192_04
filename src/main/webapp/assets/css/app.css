@@ -1,0 +1,30 @@
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+
+.stat-card {
+  border: 0;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 12%);
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+}

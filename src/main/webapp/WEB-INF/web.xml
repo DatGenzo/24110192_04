@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app
+    xmlns="https://jakarta.ee/xml/ns/jakartaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        https://jakarta.ee/xml/ns/jakartaee
+        https://jakarta.ee/xml/ns/jakartaee/web-app_6_1.xsd"
+    version="6.1"
+>
+    <display-name>
+        LTWeb Exam 04 - 24110192
+    </display-name>
+
+    <filter>
+        <filter-name>
+            CharacterEncodingFilter_24110192
+        </filter-name>
+
+        <filter-class>
+            com.thanhdat.exam04.filters.CharacterEncodingFilter_24110192
+        </filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>
+            CharacterEncodingFilter_24110192
+        </filter-name>
+
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <welcome-file-list>
+        <welcome-file>home</welcome-file>
+    </welcome-file-list>
+</web-app>
