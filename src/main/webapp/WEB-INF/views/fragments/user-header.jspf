@@ -60,14 +60,14 @@
                   class="nav-link"
                   href="${pageContext.request.contextPath}/cart"
                 >
-                  Giỏ hàng
+                  Gi&#7887; h&#224;ng
                 </a>
 
                 <a
                   class="nav-link"
                   href="${pageContext.request.contextPath}/orders"
                 >
-                  Đơn hàng
+                  &#272;&#417;n h&#224;ng
                 </a>
               </c:otherwise>
             </c:choose>
