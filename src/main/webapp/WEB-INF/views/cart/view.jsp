@@ -45,7 +45,7 @@
 </c:if>
 
 <c:choose>
-  <c:when test="${empty cart or cart.empty}">
+  <c:when test="${empty cart or empty cart.items}">
     <div class="card shadow-sm">
       <div class="card-body text-center py-5">
         <h2 class="h4">Giỏ hàng đang trống</h2>
